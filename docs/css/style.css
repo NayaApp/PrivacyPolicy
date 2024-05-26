@@ -1,0 +1,85 @@
+/**************************************/
+body
+{
+  background: #d4f0fd;
+}
+
+/**************************************/
+hr
+{
+  width: 50%;
+  align-content: left;
+}
+
+/**************************************/
+
+h1
+{
+  color: #ff00ff;
+  background: #00bb00;
+  border: double;
+  text-align: center;
+  margin: 0%;
+  line-height: 60px;
+}
+
+/**************************************/
+table
+{
+  border-collapse: collapse;
+  border: solid thin blue;
+}
+
+
+th
+{
+  width: 100px;
+}
+
+tr
+{
+  background-image: linear-gradient(80deg, #404040 0%, #ffffff 60%);
+}
+
+td
+{
+  text-align: center;
+}
+
+td.icon
+{
+  background-size: 20px;
+  background-position: left 2px center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 5px;
+  
+  background-image: url(img/check.gif);
+}
+
+div.svg
+{
+  background-color: #00ff00;
+  width: 26px;
+  height: 26px;
+}
+
+svg
+{
+  align-content: center;
+}
+
+.youtube{
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 (9÷16=0.5625) */
+}
+.youtube iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
